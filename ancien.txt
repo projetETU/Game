@@ -1,0 +1,38 @@
+    // public void setMedicament() throws Exception{
+    //      DatabaseUtil data = new DatabaseUtil();
+    //     if (getLoha() == 0 && getLelo() == 0 && getTenda() == 0 && getKibo() == 0 && getCaca() == 0 &&
+    //     getFatigue() == 0 && getTemperature() == 0) {
+    //     this.medicament = "TSY MISY FANAFODY";  
+    //     }else{    
+    //     ResultSet datas = data.getMedicament(getLoha(),getLelo(),getTenda(),getKibo(),getCaca(),getFatigue(),getTemperature());
+    //     while(datas.next())
+    //     this.medicament = datas.getString("medicament");
+    //     }    
+    // }
+
+
+
+
+
+    // public void setPrix() throws Exception{
+    //     if (getMedicament().equals("TSY MISY FANAFODY")) {
+    //         this.prix = 0.0;
+    //     }else{
+    //     DatabaseUtil data = new DatabaseUtil();
+    //     ResultSet rs = data.getMedicament(getLoha(),getLelo(),getTenda(),getKibo(),getCaca(),getFatigue(),getTemperature());
+    //     while(rs.next())
+    //     this.prix = rs.getDouble("prix");
+    //     }
+    // }    
+
+
+
+
+
+
+// while (rs.getInt(2)<0 || rs.getInt(3)<0 || rs.getInt(4)<0 || rs.getInt(5)<0 || rs.getInt(6)<0 || rs.getInt(7)<0 || rs.getInt(8)<0 ) {
+            //         ResultSet rs2 = data.getMedicament(getLoha(),getLelo(),getTenda(),getKibo(),getCaca(),getFatigue(),getTemperature());
+            //         while(rs2.next()){
+            //         medicaments.add(new Medicament(rs2.getString(1),rs2.getInt(2),rs2.getInt(3),rs2.getInt(4),rs2.getInt(5),rs2.getInt(6),rs2.getInt(7),rs2.getInt(8),rs2.getDouble(9)));
+            //         }
+            //     }
